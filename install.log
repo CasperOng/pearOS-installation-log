@@ -1,0 +1,39 @@
+==> Creating install root at /mnt
+==> Installing packages to /mnt
+:: Synchronizing package databases...
+ main downloading...
+ core downloading...
+ extra downloading...
+ community downloading...
+ alg_repo downloading...
+error: failed retrieving file 'main.db' from pearos-archlinux.github.io : Resolving timed out after 10000 milliseconds
+error: failed retrieving file 'alg_repo.db' from arch-linux-gui.github.io : Connection time-out
+error: failed to synchronize all databases (download library error)
+==> ERROR: Failed to install packages to new root
+chroot: failed to run command ‘hwclock’: No such file or directory
+sed: can't read /mnt/etc/locale.gen: No such file or directory
+/usr/local/bin/setup: line 239: /mnt/etc/default/grub: No such file or directory
+chroot: failed to run command ‘chpasswd’: No such file or directory
+cp: cannot create directory '/mnt/usr/share/': No such file or directory
+cp: cannot create regular file '/mnt/usr/local/bin/bin_post': No such file or directory
+chmod: cannot access '/mnt/usr/local/bin/bin_post': No such file or directory
+/usr/local/bin/setup: line 252: /mnt/etc/skel/.config/autostart/xyz.pearos-post-install.desktop: No such file or directory
+/usr/local/bin/setup: line 253: /mnt/etc/skel/.config/autostart/xyz.pearos-post-install.desktop: No such file or directory
+/usr/local/bin/setup: line 254: /mnt/etc/skel/.config/autostart/xyz.pearos-post-install.desktop: No such file or directory
+/usr/local/bin/setup: line 255: /mnt/etc/skel/.config/autostart/xyz.pearos-post-install.desktop: No such file or directory
+/usr/local/bin/setup: line 256: /mnt/etc/skel/.config/autostart/xyz.pearos-post-install.desktop: No such file or directory
+/usr/local/bin/setup: line 257: /mnt/etc/skel/.config/autostart/xyz.pearos-post-install.desktop: No such file or directory
+/usr/local/bin/setup: line 258: /mnt/etc/skel/.config/autostart/xyz.pearos-post-install.desktop: No such file or directory
+/usr/local/bin/setup: line 259: /mnt/etc/skel/.config/autostart/xyz.pearos-post-install.desktop: No such file or directory
+/usr/local/bin/setup: line 260: /mnt/etc/skel/.config/autostart/xyz.pearos-post-install.desktop: No such file or directory
+/usr/local/bin/setup: line 261: /mnt/etc/skel/.config/autostart/xyz.pearos-post-install.desktop: No such file or directory
+/usr/local/bin/setup: line 262: /mnt/etc/skel/.config/autostart/xyz.pearos-post-install.desktop: No such file or directory
+/usr/local/bin/setup: line 263: /mnt/etc/skel/.config/autostart/xyz.pearos-post-install.desktop: No such file or directory
+/usr/local/bin/setup: line 264: /mnt/etc/skel/.config/autostart/xyz.pearos-post-install.desktop: No such file or directory
+/usr/local/bin/setup: line 265: /mnt/etc/skel/.config/autostart/xyz.pearos-post-install.desktop: No such file or directory
+chroot: failed to run command ‘useradd’: No such file or directory
+chroot: failed to run command ‘chpasswd’: No such file or directory
+chroot: failed to run command ‘usermod’: No such file or directory
+chroot: failed to run command ‘usermod’: No such file or directory
+sed: can't read /mnt/etc/sudoers: No such file or directory
+chmod: cannot access '/mnt/usr/share/extras': No such file or directory
